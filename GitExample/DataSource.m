@@ -27,6 +27,7 @@ static sqlite3_stmt *hydrate_statement = nil;
 #pragma mark --- Delete Previous Database if Exists
 +(BOOL)DeletePreviousCopyIfExists:(NSString *)strDBName
 {
+
     NSArray *docPaths=NSSearchPathForDirectoriesInDomains(NSLibraryDirectory,NSUserDomainMask,YES);
     
 	NSString *docDir=[docPaths objectAtIndex:0];

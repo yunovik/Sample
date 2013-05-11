@@ -22,6 +22,10 @@
 		7DEC6E2D173E2D330016A378 /* UploadDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC6E2A173E2D330016A378 /* UploadDatabase.m */; };
 		7DEC6E2E173E2D330016A378 /* PutInfoClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC6E2C173E2D330016A378 /* PutInfoClass.m */; };
 		7DEC6E31173E2D6D0016A378 /* getWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC6E30173E2D6D0016A378 /* getWebService.m */; };
+		7DEC6E38173E33410016A378 /* reference_Class.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC6E37173E33410016A378 /* reference_Class.m */; };
+		7DEC6E3F173E34490016A378 /* SignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC6E3E173E34490016A378 /* SignViewController.m */; };
+		7DEC6E41173E36290016A378 /* AudioDemo 2.zip in Resources */ = {isa = PBXBuildFile; fileRef = 7DEC6E40173E36290016A378 /* AudioDemo 2.zip */; };
+		7DEC6E43173E366C0016A378 /* ElogBooKs_May_6.zip in Resources */ = {isa = PBXBuildFile; fileRef = 7DEC6E42173E366C0016A378 /* ElogBooKs_May_6.zip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +54,12 @@
 		7DEC6E2C173E2D330016A378 /* PutInfoClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PutInfoClass.m; sourceTree = "<group>"; };
 		7DEC6E2F173E2D6D0016A378 /* getWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getWebService.h; sourceTree = "<group>"; };
 		7DEC6E30173E2D6D0016A378 /* getWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = getWebService.m; sourceTree = "<group>"; };
+		7DEC6E36173E33410016A378 /* reference_Class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reference_Class.h; sourceTree = "<group>"; };
+		7DEC6E37173E33410016A378 /* reference_Class.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = reference_Class.m; sourceTree = "<group>"; };
+		7DEC6E3D173E34490016A378 /* SignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignViewController.h; sourceTree = "<group>"; };
+		7DEC6E3E173E34490016A378 /* SignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignViewController.m; sourceTree = "<group>"; };
+		7DEC6E40173E36290016A378 /* AudioDemo 2.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "AudioDemo 2.zip"; sourceTree = "<group>"; };
+		7DEC6E42173E366C0016A378 /* ElogBooKs_May_6.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = ElogBooKs_May_6.zip; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +128,10 @@
 		7D95A996173E1FB800AE7973 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7DEC6E42173E366C0016A378 /* ElogBooKs_May_6.zip */,
+				7DEC6E40173E36290016A378 /* AudioDemo 2.zip */,
+				7DEC6E3D173E34490016A378 /* SignViewController.h */,
+				7DEC6E3E173E34490016A378 /* SignViewController.m */,
 				7D95A997173E1FB800AE7973 /* GitExample-Info.plist */,
 				7D95A998173E1FB800AE7973 /* InfoPlist.strings */,
 				7D95A99B173E1FB800AE7973 /* main.m */,
@@ -125,6 +139,8 @@
 				7D95A9A1173E1FB800AE7973 /* Default.png */,
 				7D95A9A3173E1FB800AE7973 /* Default@2x.png */,
 				7D95A9A5173E1FB800AE7973 /* Default-568h@2x.png */,
+				7DEC6E36173E33410016A378 /* reference_Class.h */,
+				7DEC6E37173E33410016A378 /* reference_Class.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -185,6 +201,8 @@
 				7D95A9A4173E1FB800AE7973 /* Default@2x.png in Resources */,
 				7D95A9A6173E1FB900AE7973 /* Default-568h@2x.png in Resources */,
 				7D95A9A9173E1FB900AE7973 /* MainStoryboard.storyboard in Resources */,
+				7DEC6E41173E36290016A378 /* AudioDemo 2.zip in Resources */,
+				7DEC6E43173E366C0016A378 /* ElogBooKs_May_6.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +220,8 @@
 				7DEC6E2D173E2D330016A378 /* UploadDatabase.m in Sources */,
 				7DEC6E2E173E2D330016A378 /* PutInfoClass.m in Sources */,
 				7DEC6E31173E2D6D0016A378 /* getWebService.m in Sources */,
+				7DEC6E38173E33410016A378 /* reference_Class.m in Sources */,
+				7DEC6E3F173E34490016A378 /* SignViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
