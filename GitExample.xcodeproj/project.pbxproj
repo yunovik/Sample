@@ -18,6 +18,10 @@
 		7D95A9A6173E1FB900AE7973 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D95A9A5173E1FB800AE7973 /* Default-568h@2x.png */; };
 		7D95A9A9173E1FB900AE7973 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D95A9A7173E1FB900AE7973 /* MainStoryboard.storyboard */; };
 		7D95A9AC173E1FB900AE7973 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D95A9AB173E1FB900AE7973 /* ViewController.m */; };
+		7DEC6E27173E2D1A0016A378 /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC6E26173E2D1A0016A378 /* DataSource.m */; };
+		7DEC6E2D173E2D330016A378 /* UploadDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC6E2A173E2D330016A378 /* UploadDatabase.m */; };
+		7DEC6E2E173E2D330016A378 /* PutInfoClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC6E2C173E2D330016A378 /* PutInfoClass.m */; };
+		7DEC6E31173E2D6D0016A378 /* getWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC6E30173E2D6D0016A378 /* getWebService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,15 @@
 		7D95A9A8173E1FB900AE7973 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		7D95A9AA173E1FB900AE7973 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7D95A9AB173E1FB900AE7973 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7DEC6E24173E2D1A0016A378 /* ElogBooksAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElogBooksAppDelegate.h; sourceTree = "<group>"; };
+		7DEC6E25173E2D1A0016A378 /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
+		7DEC6E26173E2D1A0016A378 /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
+		7DEC6E29173E2D330016A378 /* UploadDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadDatabase.h; sourceTree = "<group>"; };
+		7DEC6E2A173E2D330016A378 /* UploadDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadDatabase.m; sourceTree = "<group>"; };
+		7DEC6E2B173E2D330016A378 /* PutInfoClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PutInfoClass.h; sourceTree = "<group>"; };
+		7DEC6E2C173E2D330016A378 /* PutInfoClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PutInfoClass.m; sourceTree = "<group>"; };
+		7DEC6E2F173E2D6D0016A378 /* getWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getWebService.h; sourceTree = "<group>"; };
+		7DEC6E30173E2D6D0016A378 /* getWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = getWebService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +101,15 @@
 				7D95A9A7173E1FB900AE7973 /* MainStoryboard.storyboard */,
 				7D95A9AA173E1FB900AE7973 /* ViewController.h */,
 				7D95A9AB173E1FB900AE7973 /* ViewController.m */,
+				7DEC6E24173E2D1A0016A378 /* ElogBooksAppDelegate.h */,
+				7DEC6E25173E2D1A0016A378 /* DataSource.h */,
+				7DEC6E26173E2D1A0016A378 /* DataSource.m */,
+				7DEC6E29173E2D330016A378 /* UploadDatabase.h */,
+				7DEC6E2A173E2D330016A378 /* UploadDatabase.m */,
+				7DEC6E2B173E2D330016A378 /* PutInfoClass.h */,
+				7DEC6E2C173E2D330016A378 /* PutInfoClass.m */,
+				7DEC6E2F173E2D6D0016A378 /* getWebService.h */,
+				7DEC6E30173E2D6D0016A378 /* getWebService.m */,
 				7D95A996173E1FB800AE7973 /* Supporting Files */,
 			);
 			path = GitExample;
@@ -176,6 +198,10 @@
 				7D95A99C173E1FB800AE7973 /* main.m in Sources */,
 				7D95A9A0173E1FB800AE7973 /* AppDelegate.m in Sources */,
 				7D95A9AC173E1FB900AE7973 /* ViewController.m in Sources */,
+				7DEC6E27173E2D1A0016A378 /* DataSource.m in Sources */,
+				7DEC6E2D173E2D330016A378 /* UploadDatabase.m in Sources */,
+				7DEC6E2E173E2D330016A378 /* PutInfoClass.m in Sources */,
+				7DEC6E31173E2D6D0016A378 /* getWebService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +317,7 @@
 				7D95A9B1173E1FB900AE7973 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
