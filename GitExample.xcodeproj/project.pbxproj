@@ -18,14 +18,13 @@
 		7D95A9A6173E1FB900AE7973 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D95A9A5173E1FB800AE7973 /* Default-568h@2x.png */; };
 		7D95A9A9173E1FB900AE7973 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D95A9A7173E1FB900AE7973 /* MainStoryboard.storyboard */; };
 		7D95A9AC173E1FB900AE7973 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D95A9AB173E1FB900AE7973 /* ViewController.m */; };
+		7DB15A521768905700D3A9AF /* simpleChat.zip in Resources */ = {isa = PBXBuildFile; fileRef = 7DB15A511768905700D3A9AF /* simpleChat.zip */; };
 		7DEC6E27173E2D1A0016A378 /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC6E26173E2D1A0016A378 /* DataSource.m */; };
 		7DEC6E2D173E2D330016A378 /* UploadDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC6E2A173E2D330016A378 /* UploadDatabase.m */; };
 		7DEC6E2E173E2D330016A378 /* PutInfoClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC6E2C173E2D330016A378 /* PutInfoClass.m */; };
 		7DEC6E31173E2D6D0016A378 /* getWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC6E30173E2D6D0016A378 /* getWebService.m */; };
 		7DEC6E38173E33410016A378 /* reference_Class.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC6E37173E33410016A378 /* reference_Class.m */; };
 		7DEC6E3F173E34490016A378 /* SignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC6E3E173E34490016A378 /* SignViewController.m */; };
-		7DEC6E41173E36290016A378 /* AudioDemo 2.zip in Resources */ = {isa = PBXBuildFile; fileRef = 7DEC6E40173E36290016A378 /* AudioDemo 2.zip */; };
-		7DEC6E43173E366C0016A378 /* ElogBooKs_May_6.zip in Resources */ = {isa = PBXBuildFile; fileRef = 7DEC6E42173E366C0016A378 /* ElogBooKs_May_6.zip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +44,7 @@
 		7D95A9A8173E1FB900AE7973 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		7D95A9AA173E1FB900AE7973 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7D95A9AB173E1FB900AE7973 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7DB15A511768905700D3A9AF /* simpleChat.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = simpleChat.zip; sourceTree = "<group>"; };
 		7DEC6E24173E2D1A0016A378 /* ElogBooksAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElogBooksAppDelegate.h; sourceTree = "<group>"; };
 		7DEC6E25173E2D1A0016A378 /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
 		7DEC6E26173E2D1A0016A378 /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
@@ -58,8 +58,6 @@
 		7DEC6E37173E33410016A378 /* reference_Class.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = reference_Class.m; sourceTree = "<group>"; };
 		7DEC6E3D173E34490016A378 /* SignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignViewController.h; sourceTree = "<group>"; };
 		7DEC6E3E173E34490016A378 /* SignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignViewController.m; sourceTree = "<group>"; };
-		7DEC6E40173E36290016A378 /* AudioDemo 2.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "AudioDemo 2.zip"; sourceTree = "<group>"; };
-		7DEC6E42173E366C0016A378 /* ElogBooKs_May_6.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = ElogBooKs_May_6.zip; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,8 +126,7 @@
 		7D95A996173E1FB800AE7973 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7DEC6E42173E366C0016A378 /* ElogBooKs_May_6.zip */,
-				7DEC6E40173E36290016A378 /* AudioDemo 2.zip */,
+				7DB15A511768905700D3A9AF /* simpleChat.zip */,
 				7DEC6E3D173E34490016A378 /* SignViewController.h */,
 				7DEC6E3E173E34490016A378 /* SignViewController.m */,
 				7D95A997173E1FB800AE7973 /* GitExample-Info.plist */,
@@ -201,8 +198,7 @@
 				7D95A9A4173E1FB800AE7973 /* Default@2x.png in Resources */,
 				7D95A9A6173E1FB900AE7973 /* Default-568h@2x.png in Resources */,
 				7D95A9A9173E1FB900AE7973 /* MainStoryboard.storyboard in Resources */,
-				7DEC6E41173E36290016A378 /* AudioDemo 2.zip in Resources */,
-				7DEC6E43173E366C0016A378 /* ElogBooKs_May_6.zip in Resources */,
+				7DB15A521768905700D3A9AF /* simpleChat.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
